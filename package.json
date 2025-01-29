@@ -1,0 +1,22 @@
+{
+  "name": "chat-websocket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "socket.io": "^4.8.1"
+  }
+}
